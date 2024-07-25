@@ -18,7 +18,7 @@ const BurgerLinks = () => {
         <div className="burger-links" id="_burger-links" >
             <button className="burger-menu" onClick={burger_menu}><FontAwesomeIcon icon={faXmark}/></button>
             <ul>
-                <li><a href="/" onClick={burger_menu}>HOME</a></li>
+                <li><a href="#" onClick={burger_menu}>HOME</a></li>
                 <li><a href="#about" onClick={burger_menu}>ABOUT US</a></li>
                 <li><a href="#tech" onClick={burger_menu}>TECHNOLOGY</a></li>
                 <li><a href="#contact" onClick={burger_menu}>CONTACTO</a></li>
