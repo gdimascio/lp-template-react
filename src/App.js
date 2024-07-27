@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Header from './Componentes/Header/Header';
 import S1Title from "./Componentes/Main/S1Title";
 import S2About from "./Componentes/Main/S2About";
+import S3Techno from "./Componentes/Main/S3Techno";
 
 import JsonData from "./data/data.json";
 
@@ -23,11 +24,10 @@ function App() {
         <main>
           < S1Title data={landingPageData.S1Title}/>
           < S2About data={landingPageData.S2About}/>
+          < S3Techno data={landingPageData.S3Techno}/>
 
 
         </main>
-
-
 
 
 
