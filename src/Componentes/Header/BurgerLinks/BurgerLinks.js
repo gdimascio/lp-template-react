@@ -29,13 +29,3 @@ const BurgerLinks = () => {
 
 export default BurgerLinks;
 
-/* <div class="burger-links" id="_burger-links" style="transform: translateX(100%);">
-    <i onclick="burger_menu()" class="fa-solid fa-xmark"></i>
-    <ul>
-        <li><a onclick="burger_menu()" href="#">HOME</a></li>
-        <li><a onclick="burger_menu()" href="#about">ABOUT US</a></li>
-        <li><a onclick="burger_menu()" href="#tech">TECHNOLOGY</a></li>
-        <li><a onclick="burger_menu()" href="#contact">CONTACTO</a></li>
-    </ul>
-</div>  
-*/
